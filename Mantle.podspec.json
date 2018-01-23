@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "txx",
   "source": {
-      "git": "https://github.com/diaojunxian/Mantle.git"
+      "git": "git@github.com:diaojunxian/Mantle.git"
   },
   "platforms": {
     "ios": "5.0"
@@ -14,5 +14,5 @@
   "requires_arc": true,
   "frameworks": "Foundation",
   "vendored_frameworks": "Carthage/Build/iOS/Mantle.framework",
-  "prepare_command": "/usr/bin/ruby mantle_build.rb"
+  "prepare_command": "python mantle_build.py"
 }
